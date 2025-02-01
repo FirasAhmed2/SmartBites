@@ -1,4 +1,4 @@
-KH5005CEM 
+
 
 Software Engineering – Sprint 1 Report  
 
@@ -34,11 +34,7 @@ Selim Hafez
 
  
 
-January & 2025 
 
-Dr. Marwa Refai 
-
-Dr. Shrouk Atef 
 
  
 
@@ -60,7 +56,7 @@ Dr. Shrouk Atef
 
  
 
-​​Contents 
+​​
 
 ​ 
 
