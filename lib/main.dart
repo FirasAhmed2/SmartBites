@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'welcome_page.dart';
-import 'login_page.dart';
-import 'home_page.dart';
+import 'home_page.dart'; // Import HomePage
+import 'screens/home_screen.dart'; // Import HomeScreen
+import 'screens/add_habit_screen.dart'; // Import AddHabitScreen
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,11 +15,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/welcome', // Always start with WelcomePage
+      title: 'Recipe Finder App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: '/home', // Start with HomePage
       routes: {
-        '/welcome': (context) => WelcomePage(),
-        '/login': (context) => LoginPage(),
-        '/home': (context) => HomePage(),
+        '/home': (context) => HomePage(), // HomePage with logout
+        '/habits': (context) => HomeScreen(), // HomeScreen for habits
+        '/addHabit': (context) => AddHabitScreen(), // AddHabitScreen
       },
     );
   }
