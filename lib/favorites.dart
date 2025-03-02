@@ -18,11 +18,11 @@ class _FavPageState extends State<FavPage> {
   @override
   void initState() {
     super.initState();
-    loadFavorites();
-    fetchRecipes();
+    load_favorites();
+    fetch_recipes();
   }
 
-  Future<void> fetchRecipes() async {
+  Future<void> fetch_recipes() async {
     final url = Uri.parse(
         "https://api.spoonacular.com/recipes/random?apiKey=$apiKey&number=10");
     final response = await http.get(url);
@@ -45,25 +45,25 @@ class _FavPageState extends State<FavPage> {
     }
   }
 
-  void addToFavorites(dynamic recipe) {
+  void add_to_favorites(dynamic recipe) {
     if (!favoriteRecipes.contains(recipe)) {
       setState(() {
         favoriteRecipes.add(recipe);
       });
-      writeToFile();
+      write_to_file();
       print("Added to favorites: ${recipe["title"]}");
     }
   }
 
-  void removeFromFavorites(dynamic recipe) {
+  void remove_from_favorites(dynamic recipe) {
     setState(() {
       favoriteRecipes.remove(recipe);
     });
-    writeToFile();
+    write_to_file();
     print("Removed from favorites: ${recipe["title"]}");
   }
 
-  Future<void> writeToFile() async {
+  Future<void> write_to_file() async {
     try {
       final directory = await getApplicationDocumentsDirectory();
       final file = File('${directory.path}/favorites.json');
@@ -78,7 +78,7 @@ class _FavPageState extends State<FavPage> {
   }
 
 
-  Future<void> loadFavorites() async {
+  Future<void> load_favorites() async {
     try {
       final directory = await getApplicationDocumentsDirectory();
       final file = File('${directory.path}/favorites.json');
@@ -114,8 +114,8 @@ class _FavPageState extends State<FavPage> {
               itemBuilder: (context, index) {
                 return RecipeCard(
                   recipe: favoriteRecipes[index],
-                  onRemove: () => removeFromFavorites(favoriteRecipes[index]),
-                  save: () => writeToFile(),
+                  onRemove: () => remove_from_favorites(favoriteRecipes[index]),
+                  save: () => write_to_file(),
                 );
               },
             ),
@@ -135,7 +135,7 @@ class _FavPageState extends State<FavPage> {
                     itemBuilder: (context, index) {
                       return ListTile(
                         title: Text(recipes[index]["title"]),
-                        onTap: () => addToFavorites(recipes[index]),
+                        onTap: () => add_to_favorites(recipes[index]),
                       );
                     },
                   ),
