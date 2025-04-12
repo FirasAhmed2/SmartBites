@@ -7,6 +7,7 @@ import 'package:myapp/screens/home_page/base_page.dart'; // Import base page
 import 'package:myapp/screens/welcome_page.dart'; // Import WelcomePage
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:myapp/screens/CheckoutPage.dart'; // Import LoginPage
+import 'package:myapp/screens/home_page/animation_page.dart';
 
 
 
@@ -29,8 +30,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/welcome', // Start with WelcomePage
+      initialRoute: '/animation', // Start with WelcomePage
       routes: {
+        '/animation': (context) => AnimationPage(), // WelcomePage
         '/welcome': (context) => WelcomePage(), // WelcomePage
         '/': (context) => Wrapper(), // Wrapper to handle authentication state
         '/login': (context) => LoginPage(), // LoginPage
