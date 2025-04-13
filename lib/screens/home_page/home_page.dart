@@ -21,6 +21,13 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     fetchRecipes();
   }
+  //unit test
+  void testfetchRecipes(List<dynamic> recipes){
+    print("test for the fetch recipes function to ensure that recipes were obtained");
+    for (var l in recipes){
+      print("list item: $l");
+    }
+  }
 
   Future<void> fetchRecipes() async {
     final url = Uri.parse("https://api.spoonacular.com/recipes/random?apiKey=$apiKey&number=6");
@@ -30,6 +37,7 @@ class _HomePageState extends State<HomePage> {
         final data = json.decode(response.body);
         setState(() {
           recipes = data["recipes"] ?? [];
+          testfetchRecipes(recipes);
         });
       } else {
         print("Failed to fetch recipes: ${response.statusCode}");
@@ -38,6 +46,40 @@ class _HomePageState extends State<HomePage> {
       print("Error fetching recipes: $e");
     }
   }
+
+//unit test
+  Future<void> test_addRecipToMenu(String recipeName) async {
+    final user = _auth.currentUser;
+
+    if (user == null) {
+      print(" User is not logged in.");
+      return;
+    }
+
+    try {
+      print(" Checking if recipe '$recipeName' exists in Firestore...");
+
+      final rec = await _firestore
+          .collection('users')
+          .doc(user.uid)
+          .collection('recipes')
+          .where('name', isEqualTo: recipeName)
+          .get();
+
+      if (rec.docs.isNotEmpty) {
+        print(" Recipe found in Firestore:");
+        for (var doc in rec.docs) {
+          print(doc.data());
+        }
+      } else {
+        print(" Recipe not found.");
+      }
+    } catch (e, stack) {
+      print(" Error while checking Firestore: $e");
+      print(stack);
+    }
+  }
+
 
   /// **Function to Add Recipe to "My Menu"**
   Future<void> _addRecipeToMenu(Map<String, dynamic> recipe) async {
@@ -55,7 +97,7 @@ class _HomePageState extends State<HomePage> {
           'imageUrl': recipe['image'] ?? '',
           'createdAt': FieldValue.serverTimestamp(),
         });
-
+        test_addRecipToMenu(recipe['title']);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text("Recipe added to My Menu!"),

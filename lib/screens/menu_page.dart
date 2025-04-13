@@ -176,6 +176,18 @@ class _MenuPageState extends State<MenuPage> {
       ),
     );
   }
+  //unit test
+  void test_addToCArt(QueryDocumentSnapshot doc) async{
+    print("function to test _addToCart function");
+    var userId = _auth.currentUser?.uid;
+    if (userId == null) return;
+    var cartRef = _firestore.collection('users').doc(userId).collection('cart');
+    var cartItem = await cartRef.doc(doc.id).get();
+    if (cartItem.exists)
+      print("item added to cart");
+    else
+      print("item was not added to cart");
+  }
 
   void _addToCart() async {
     var userId = _auth.currentUser?.uid;
@@ -193,6 +205,7 @@ class _MenuPageState extends State<MenuPage> {
 
       if (!cartItem.exists) {
         await cartRef.doc(doc.id).set(recipeData);
+        test_addToCArt(doc);
       }
     }
 

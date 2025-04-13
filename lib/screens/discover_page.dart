@@ -32,6 +32,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
     _searchController.dispose();
     super.dispose();
   }
+void test_loadFavorites(Set<String> rec){
+    print("Testing _loadFactor function");
+    for (var r in rec){
+      print("recipe: $r");
+    }
+}
 
   Future<void> _loadFavorites() async {
     if (_auth.currentUser != null) {
@@ -43,6 +49,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
 
       setState(() {
         favoriteRecipes = snapshot.docs.map((doc) => doc.id).toSet();
+        test_loadFavorites(favoriteRecipes);
       });
     }
   }

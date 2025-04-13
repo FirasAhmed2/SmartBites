@@ -15,6 +15,15 @@ class _EditProfileState extends State<EditProfile> {
   late TextEditingController _weightController;
   late TextEditingController _heightController;
 
+  //unit test
+  void testinitState() {
+    print("Testing init state function of _EditProfileState class");
+    print("name: ${_nameController.text}");
+    print("age: ${_ageController.text}");
+    print("weight: ${_weightController.text}");
+    print("height: ${_heightController.text}");
+  }
+
   @override
   void initState() {
     super.initState();
@@ -22,6 +31,7 @@ class _EditProfileState extends State<EditProfile> {
     _ageController = TextEditingController(text: widget.userData['age'].toString());
     _weightController = TextEditingController(text: widget.userData['weight'].toString());
     _heightController = TextEditingController(text: widget.userData['height'].toString());
+    testinitState();
   }
 
   @override
@@ -40,7 +50,7 @@ class _EditProfileState extends State<EditProfile> {
       'weight': double.tryParse(_weightController.text.trim()) ?? 0.0,
       'height': double.tryParse(_heightController.text.trim()) ?? 0.0,
     };
-
+    testinitState();
     Navigator.pop(context, updatedUserData); // Send updated data back
   }
 

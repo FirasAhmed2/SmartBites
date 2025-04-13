@@ -1,0 +1,2 @@
+C:/Users/omans/StudioProjects/SmartBites/android/app/.cxx/Debug/3p731u2r/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/omans/StudioProjects/SmartBites/android/app/.cxx/Debug/3p731u2r/x86_64/CMakeFiles/rebuild_cache.dir
