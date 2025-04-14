@@ -6,14 +6,26 @@ import 'package:myapp/screens/RecipeDetailsPage.dart';
 
 
 class MenuPage extends StatefulWidget {
+  final FirebaseFirestore? firestore;
+  final FirebaseAuth? auth;
+
+  MenuPage({this.firestore, this.auth});
   @override
   _MenuPageState createState() => _MenuPageState();
 }
 
 class _MenuPageState extends State<MenuPage> {
-  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  final FirebaseAuth _auth = FirebaseAuth.instance;
+  //final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+  //final FirebaseAuth _auth = FirebaseAuth.instance;
+  late final FirebaseFirestore _firestore;
+  late final FirebaseAuth _auth;
 
+  @override
+  void initState() {
+    super.initState();
+    _firestore = widget.firestore ?? FirebaseFirestore.instance;
+    _auth = widget.auth ?? FirebaseAuth.instance;
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -213,6 +225,7 @@ class _MenuPageState extends State<MenuPage> {
         SnackBar(content: Text('Recipes added to cart!')));
   }
 
+
   void _removeFromMenu(String recipeId) async {
     var userId = _auth.currentUser?.uid;
     if (userId == null) return;
@@ -287,6 +300,7 @@ class _MenuPageState extends State<MenuPage> {
 
   Widget _buildRecipeCard(Map<String, dynamic> recipe, String recipeId) {
     return GestureDetector(
+      key: Key('recipe_card_$recipeId'),
       onTap: () => _showRecipeDetails(recipe, recipeId),
       child: Card(
         elevation: 4,
