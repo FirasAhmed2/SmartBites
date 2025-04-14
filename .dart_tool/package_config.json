@@ -14,6 +14,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "adaptive_number",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/adaptive_number-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "analyzer",
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-7.3.0",
       "packageUri": "lib/",
@@ -128,10 +134,22 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "dart_jsonwebtoken",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/dart_jsonwebtoken-2.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "dart_style",
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/dart_style-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "ed25519_edwards",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/ed25519_edwards-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "equatable",
@@ -174,6 +192,12 @@
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-5.5.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "firebase_auth_mocks",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_mocks-0.14.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "firebase_auth_platform_interface",
@@ -264,6 +288,12 @@
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.7.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
     },
     {
       "name": "leak_tracker",
@@ -380,6 +410,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "pointycastle",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/pointycastle-3.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "pub_semver",
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/pub_semver-2.2.0",
       "packageUri": "lib/",
@@ -464,6 +500,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sprintf",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.12.1",
       "packageUri": "lib/",
@@ -504,6 +546,12 @@
       "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "uuid",
+      "rootUri": "file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "vector_math",
@@ -548,7 +596,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-04-13T20:01:07.858766Z",
+  "generated": "2025-04-14T11:05:29.682932Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///C:/flutter/src/flutter",

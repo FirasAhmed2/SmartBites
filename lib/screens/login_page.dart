@@ -5,19 +5,31 @@ import 'package:myapp/screens/register_details_page.dart'; // Import RegisterDet
 import 'package:myapp/screens/home_page/base_page.dart'; // Import BasePage
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+  //const LoginPage({super.key});
+  final FirebaseAuth? auth;
+
+  const LoginPage({super.key, this.auth});
+
 
   @override
   _LoginPageState createState() => _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final FirebaseAuth _auth = FirebaseAuth.instance;
+  //final FirebaseAuth _auth = FirebaseAuth.instance;
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   String _errorMessage = '';
   bool _isLoading = false;
   bool _obscurePassword = true;
+
+  late final FirebaseAuth _auth;
+
+  @override
+  void initState() {
+    super.initState();
+    _auth = widget.auth ?? FirebaseAuth.instance;
+  }
 
   bool _isEmailValid(String email) {
     return RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(email);
