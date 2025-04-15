@@ -67,6 +67,7 @@ INJECTED from C:\Users\omans\StudioProjects\SmartBites\android\app\src\debug\And
 MERGED from [:cloud_firestore] C:\Users\omans\StudioProjects\SmartBites\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_auth] C:\Users\omans\StudioProjects\SmartBites\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] C:\Users\omans\StudioProjects\SmartBites\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:integration_test] C:\Users\omans\StudioProjects\SmartBites\build\integration_test\intermediates\merged_manifest\debug\AndroidManifest.xml:7:1-12:12
 MERGED from [:shared_preferences_android] C:\Users\omans\StudioProjects\SmartBites\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] C:\Users\omans\.gradle\caches\transforms-3\700ab8a85afc55830979f0b831fbc928\transformed\jetified-firebase-auth-ktx-23.2.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:23.2.0] C:\Users\omans\.gradle\caches\transforms-3\b76833f2120cc0eadb2d46119ebcea5b\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:17:1-75:12
@@ -128,9 +129,13 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\omans\.gradl
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\eb0eae3da3241b2d41b57ea970470558\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\35487bb16f559563b08a50068c1cf405\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.13.1] C:\Users\omans\.gradle\caches\transforms-3\dfd62aa0128952a93c6833f94f7d4f37\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.test:rules:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\542177c77f0122de010061e8f9d45e3b\transformed\rules-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\omans\.gradle\caches\transforms-3\59da84540f57cfdc84668ce452a2458e\transformed\espresso-core-3.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\5abff1d6f09a7ee505a3fa3e108c62e6\transformed\runner-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omans\.gradle\caches\transforms-3\a848b0adb595409267953f4ff427d6d3\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\omans\.gradle\caches\transforms-3\e60385f81bf7776e2cd61c067b0048a2\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\a27ca952bb1f06419fdea5d72a362ea8\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\cc38c7760bf6bd6b3ba4b502bdc45742\transformed\monitor-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\c06789acf5e64c36d745e109a4d52ce4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\3d53a69a980e87683ecbf99e2f87d192\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\35d6b1579ea16a7eb2e4e6fa4275df45\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -142,9 +147,10 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\omans\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\61e95bfaf9d1f1991289105afd7ad4c2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\omans\.gradle\caches\transforms-3\f06ef58b7d45bf67e9fb3486b9d6c1e8\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\omans\.gradle\caches\transforms-3\6498afdc6a685336da315c5545b6d005\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\omans\.gradle\caches\transforms-3\7427e048dadf81ca4ba5339d899801e9\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\55365572a330ab079ccf7a03ec7c238e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\omans\.gradle\caches\transforms-3\5c1958c1af728a561034dda1b0c2634e\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\omans\.gradle\caches\transforms-3\7427e048dadf81ca4ba5339d899801e9\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\omans\.gradle\caches\transforms-3\6682707b0c0599f5d1a379b6593b2878\transformed\espresso-idling-resource-3.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\55365572a330ab079ccf7a03ec7c238e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\omans\.gradle\caches\transforms-3\db54c343832b74e9255a4512e6719433\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:2:1-21:12
 	package
 		INJECTED from C:\Users\omans\StudioProjects\SmartBites\android\app\src\debug\AndroidManifest.xml
@@ -186,6 +192,8 @@ MERGED from [:firebase_auth] C:\Users\omans\StudioProjects\SmartBites\build\fire
 MERGED from [:firebase_auth] C:\Users\omans\StudioProjects\SmartBites\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\omans\StudioProjects\SmartBites\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\omans\StudioProjects\SmartBites\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:integration_test] C:\Users\omans\StudioProjects\SmartBites\build\integration_test\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-44
+MERGED from [:integration_test] C:\Users\omans\StudioProjects\SmartBites\build\integration_test\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-44
 MERGED from [:shared_preferences_android] C:\Users\omans\StudioProjects\SmartBites\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] C:\Users\omans\StudioProjects\SmartBites\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] C:\Users\omans\.gradle\caches\transforms-3\700ab8a85afc55830979f0b831fbc928\transformed\jetified-firebase-auth-ktx-23.2.0\AndroidManifest.xml:5:5-44
@@ -308,12 +316,20 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\om
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\35487bb16f559563b08a50068c1cf405\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\omans\.gradle\caches\transforms-3\dfd62aa0128952a93c6833f94f7d4f37\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\omans\.gradle\caches\transforms-3\dfd62aa0128952a93c6833f94f7d4f37\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:rules:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\542177c77f0122de010061e8f9d45e3b\transformed\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\542177c77f0122de010061e8f9d45e3b\transformed\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\omans\.gradle\caches\transforms-3\59da84540f57cfdc84668ce452a2458e\transformed\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\omans\.gradle\caches\transforms-3\59da84540f57cfdc84668ce452a2458e\transformed\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\5abff1d6f09a7ee505a3fa3e108c62e6\transformed\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\5abff1d6f09a7ee505a3fa3e108c62e6\transformed\runner-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omans\.gradle\caches\transforms-3\a848b0adb595409267953f4ff427d6d3\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omans\.gradle\caches\transforms-3\a848b0adb595409267953f4ff427d6d3\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\omans\.gradle\caches\transforms-3\e60385f81bf7776e2cd61c067b0048a2\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\omans\.gradle\caches\transforms-3\e60385f81bf7776e2cd61c067b0048a2\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\a27ca952bb1f06419fdea5d72a362ea8\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\a27ca952bb1f06419fdea5d72a362ea8\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\cc38c7760bf6bd6b3ba4b502bdc45742\transformed\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\omans\.gradle\caches\transforms-3\cc38c7760bf6bd6b3ba4b502bdc45742\transformed\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\c06789acf5e64c36d745e109a4d52ce4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\omans\.gradle\caches\transforms-3\c06789acf5e64c36d745e109a4d52ce4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\3d53a69a980e87683ecbf99e2f87d192\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
@@ -336,12 +352,14 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\omans\.
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\omans\.gradle\caches\transforms-3\f06ef58b7d45bf67e9fb3486b9d6c1e8\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\omans\.gradle\caches\transforms-3\6498afdc6a685336da315c5545b6d005\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\omans\.gradle\caches\transforms-3\6498afdc6a685336da315c5545b6d005\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\omans\.gradle\caches\transforms-3\7427e048dadf81ca4ba5339d899801e9\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
-MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\omans\.gradle\caches\transforms-3\7427e048dadf81ca4ba5339d899801e9\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\55365572a330ab079ccf7a03ec7c238e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\55365572a330ab079ccf7a03ec7c238e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\omans\.gradle\caches\transforms-3\5c1958c1af728a561034dda1b0c2634e\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\omans\.gradle\caches\transforms-3\5c1958c1af728a561034dda1b0c2634e\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\omans\.gradle\caches\transforms-3\7427e048dadf81ca4ba5339d899801e9\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\omans\.gradle\caches\transforms-3\7427e048dadf81ca4ba5339d899801e9\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\omans\.gradle\caches\transforms-3\6682707b0c0599f5d1a379b6593b2878\transformed\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\omans\.gradle\caches\transforms-3\6682707b0c0599f5d1a379b6593b2878\transformed\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\55365572a330ab079ccf7a03ec7c238e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\omans\.gradle\caches\transforms-3\55365572a330ab079ccf7a03ec7c238e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\omans\.gradle\caches\transforms-3\db54c343832b74e9255a4512e6719433\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\omans\.gradle\caches\transforms-3\db54c343832b74e9255a4512e6719433\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary

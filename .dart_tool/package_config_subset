@@ -262,6 +262,10 @@ pointycastle
 3.2
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/pointycastle-3.9.1/
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/pointycastle-3.9.1/lib/
+process
+3.3
+file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/process-5.0.3/
+file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/process-5.0.3/lib/
 pub_semver
 3.4
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/pub_semver-2.2.0/
@@ -330,6 +334,10 @@ string_scanner
 3.1
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.4.1/
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.4.1/lib/
+sync_http
+2.12
+file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/sync_http-0.3.1/
+file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/sync_http-0.3.1/lib/
 term_glyph
 3.1
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.2/
@@ -366,6 +374,10 @@ web
 3.4
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.0/
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.0/lib/
+webdriver
+3.1
+file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/webdriver-3.0.4/
+file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/webdriver-3.0.4/lib/
 xdg_directories
 3.3
 file:///C:/Users/omans/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.1.0/
@@ -386,6 +398,10 @@ flutter
 3.7
 file:///C:/flutter/src/flutter/packages/flutter/
 file:///C:/flutter/src/flutter/packages/flutter/lib/
+flutter_driver
+3.7
+file:///C:/flutter/src/flutter/packages/flutter_driver/
+file:///C:/flutter/src/flutter/packages/flutter_driver/lib/
 flutter_test
 3.7
 file:///C:/flutter/src/flutter/packages/flutter_test/
@@ -394,4 +410,12 @@ flutter_web_plugins
 3.7
 file:///C:/flutter/src/flutter/packages/flutter_web_plugins/
 file:///C:/flutter/src/flutter/packages/flutter_web_plugins/lib/
+fuchsia_remote_debug_protocol
+3.7
+file:///C:/flutter/src/flutter/packages/fuchsia_remote_debug_protocol/
+file:///C:/flutter/src/flutter/packages/fuchsia_remote_debug_protocol/lib/
+integration_test
+3.7
+file:///C:/flutter/src/flutter/packages/integration_test/
+file:///C:/flutter/src/flutter/packages/integration_test/lib/
 2

@@ -1,0 +1,1 @@
+ C:\\Users\\omans\\StudioProjects\\SmartBites\\.dart_tool\\flutter_build\\e36823f26847203e554d372ee2e2b5da\\dart_build_result.json: 

@@ -52,4 +52,5 @@ com.example.proto.app-merged_res-50 C:\Users\omans\StudioProjects\SmartBites\bui
 com.example.proto.app-packaged_res-51 C:\Users\omans\StudioProjects\SmartBites\build\cloud_firestore\intermediates\packaged_res\debug
 com.example.proto.app-packaged_res-52 C:\Users\omans\StudioProjects\SmartBites\build\firebase_auth\intermediates\packaged_res\debug
 com.example.proto.app-packaged_res-53 C:\Users\omans\StudioProjects\SmartBites\build\firebase_core\intermediates\packaged_res\debug
-com.example.proto.app-packaged_res-54 C:\Users\omans\StudioProjects\SmartBites\build\shared_preferences_android\intermediates\packaged_res\debug
+com.example.proto.app-packaged_res-54 C:\Users\omans\StudioProjects\SmartBites\build\integration_test\intermediates\packaged_res\debug
+com.example.proto.app-packaged_res-55 C:\Users\omans\StudioProjects\SmartBites\build\shared_preferences_android\intermediates\packaged_res\debug

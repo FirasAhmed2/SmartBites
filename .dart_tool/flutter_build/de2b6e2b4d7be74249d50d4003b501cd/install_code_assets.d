@@ -1,0 +1,1 @@
+ C:\\Users\\omans\\StudioProjects\\SmartBites\\.dart_tool\\flutter_build\\de2b6e2b4d7be74249d50d4003b501cd\\native_assets.json: 
